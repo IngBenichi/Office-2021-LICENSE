@@ -1,0 +1,13 @@
+<Configuration>
+  <Add SourcePath="\\Server\Share" OfficeClientEdition="64" Channel="PerpetualVL2021">
+      <Product ID="ProPlus2021Volume"  PIDKEY="3N47-WVHW9-VCT2V-QKP29-P393W" >
+         <Language ID="en-us" />
+      </Product>
+      <Product ID="ProofingTools">
+        <Language ID="de-de" />
+        <Language ID="es-es" />
+      </Product>
+  </Add>
+  <RemoveMSI />
+  <Display Level="None" AcceptEULA="TRUE" />  
+</Configuration>
